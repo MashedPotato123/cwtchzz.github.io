@@ -2,6 +2,19 @@
 <html lang="en">
 
 <head>
+
+    <!-- The stylesheet should go in the <head>, or be included in your CSS -->
+    <link rel="stylesheet" href="blockrain.css">
+
+    <!-- jQuery and Blockrain.js -->
+    <script src="jquery.js"></script>
+    <script src="blockrain.js"></script>
+    <script>
+        $('.game').blockrain();
+        $('.game').blockrain({ autoplay: true, autoplayRestart: true });
+    </script>
+
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
@@ -24,7 +37,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top">Hi Lars!!</a>
+            <a class="navbar-brand" href="index.html">Home</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,10 +46,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">Playlist</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Pictures</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#signup">Form</a></li>
-                    <li class="nav-item"><a class="nav-link" href="tetris.html">Tetris</a></li>
+
                 </ul>
             </div>
         </div>
@@ -46,10 +56,9 @@
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Cwtch</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">More than a cuddle or a hug, when you give someone a
-                        cwtch, you figuratively give them a safe place.</h2>
-                    <a class="btn btn-primary" href="#about">Get Started</a>
+                    <h1 class="mx-auto my-0 text-uppercase">Tetris</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">practice</h2>
+                    <a class="btn btn-primary" href="#about">Play now</a>
                 </div>
             </div>
         </div>
@@ -57,52 +66,13 @@
     <!-- About-->
     <section class="about-section text-center" id="about">
         <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8">
-                    <h2 class="text-white mb-4">Music when i think of youuu 🤍 </h2>
-                    <iframe src="https://open.spotify.com/embed/playlist/21lIXwBrA1PBmuNyOkD1mw" width="100%"
-                        height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    <p class="text-white-50"></p>
-                </div>
-            </div>
+            <iframe src="https://www.play-tetris-online.com/tetris-html5/" width="600px" height="600px" scrolling="no"
+                frameborder="0"></iframe>
         </div>
+        <br><br><br><br><br><br><br>
     </section>
     <!-- Projects-->
-    <section class="projects-section bg-light" id="projects">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/2.jpg" alt="..." /></div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Thank you Lars for being part of my life, you help me be the best
-                                    version of myself!</h4>
 
-                                <p class="mb-0 text-white-50"></p>
-                                <hr class="d-none d-lg-block mb-0 ms-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/3.jpg" alt="..." /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white"> stay cool!🤍🤍 </h4>
-                                <p class="mb-0 text-white-50"></p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- Signup-->
     <section class="signup-section" id="signup">
         <div class="container px-4 px-lg-5">
